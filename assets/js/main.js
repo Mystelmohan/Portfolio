@@ -214,6 +214,8 @@
     }
   });
 
+
+
   /**
    * Testimonials slider
    */
@@ -261,3 +263,5 @@
   new PureCounter();
 
 })()
+
+

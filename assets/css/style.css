@@ -692,7 +692,16 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.portfolio-wrap {
+  height: 400px; /* You can adjust this height according to your preference */
+  overflow: hidden; /* This ensures that images don't overflow the div */
+ 
+}
 
+.portfolio-wrap img {
+  width: 100%; /* This ensures that the images fill the width of their parent div */
+  height: auto; /* This maintains the aspect ratio of the images */
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
